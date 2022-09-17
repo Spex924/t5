@@ -383,7 +383,7 @@ p{
     line-height: 0;
 }
 .div7{
-    background-image: url('/img/vetlayer.jpg');
+    background-image: url('img/vetlayer.jpg');
     background-size: cover;
     width: 100%;
     height: 400px;
