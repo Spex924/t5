@@ -1,0 +1,567 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(234, 174, 0);
+    width: 100%;
+    height: 70px;
+    margin:0 !important;
+    overflow: hidden;
+}
+.navlogo{
+    float: left;
+    position: relative;
+}
+.navlogo img{
+    margin-left: 100px;
+    margin-right: 15px;
+    margin-top:10px;
+    height: 70%;
+    position: absolute;
+}
+#logotitle{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 0;
+}
+.navlogo p{
+    font-family: 'segoe ui';
+    color: white;
+    font-size: 13px;
+    margin-left: 165px;
+}
+.navlogo{
+    margin-right: 150px;
+}
+.hotbar span{
+    font-size: 20px;
+    padding:23px;
+    color: white;
+    font-family: 'segoe ui';
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+}
+.hotbar span:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navsearch{
+    background-color: rgb(255, 196, 0);
+    border-style: none;
+    padding-left: 20px;
+    margin-left: 50px;
+    width: 11%;
+    height: 50%;
+    margin-top: 20px;
+    /* position: relative; */
+    float:right;
+    margin-right: 140px;
+    box-shadow: 2px 2px 20px #b9a9a9;
+}
+#search{
+    color: white;
+    font-family: 'segoe ui';
+    font-weight: 400;
+    float: left;
+    padding-top: 7px;
+    
+}
+.navsearch .material-symbols-outlined{
+    margin-left: 50px;
+    background-color: rgb(0, 191, 203);
+    float: right;
+    color: white;
+    height: 100%;
+    width: 30%;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.clear{
+    clear: both;
+}
+.div1{
+    background-color: rgb(255,196,0);
+    display: inline-block;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div1 .container h1{
+    max-width: 400px;
+}
+.div1 .container p{
+    max-width: 550px;
+    color: white;
+    font-family: 'segoe ui';
+}
+h1{
+    padding-top: 70px;
+    color: white;
+    font-family: 'segoe ui';
+    font-weight: 500;
+    font-size: 50px;
+}
+.inverse{
+    color: black;
+}
+#contactus{
+    background-color: rgb(0, 191, 203);
+    border-style: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'segoe ui';
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+#ourservices{
+    background-color: rgb(255, 196, 0);
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'segoe ui';
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.col-50{
+    width:50%;
+    float: left;
+}
+.col-30{
+    width: 30%;
+    float: left;
+}
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.div1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 400px;
+}
+.div2 h1, p{
+    color: black;
+    font-family: 'segoe ui';
+}
+.div2btn{
+    background-color: rgb(255, 196, 0);
+    border-style: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'segoe ui';
+    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.overlapparent{
+    position: relative;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.yellowbox{
+    position: absolute;
+    left: 80px;
+    bottom: 80px;
+    z-index: -10;
+    background-color: rgb(255, 196, 0);
+    width: 200px;
+    height: 200px;
+}
+#dogatvet{
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    width: 70%;
+    z-index: -9;
+}
+#dogatvet{
+    filter: opacity(0.7) drop-shadow(0 0 0 rgb(255, 196, 0));
+    -webkit-filter: opacity(0.7) drop-shadow(0 0 0 rgb(255, 196, 0));
+}
+.div3{
+    background-color: rgb(255, 196, 0);
+}
+.div3>.container>h1{
+    font-size: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.div3>.container>p{
+    color: white;
+    font-family: 'segoe ui';
+    font-size: 20px;
+    text-align: center;
+
+}
+.vetcards{
+    width: 250px;
+    background-color: rgb(255, 196, 0);
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+.vetcardimg{
+    width: 100%;
+    height: 200px;
+    border: 4px solid;
+    border-color: white;
+
+}
+.vettitle{
+    color: white;
+    font-family: 'segoe ui';
+}
+.vetdesc{
+    color: white;
+}
+.rightfloat{
+    float: right;
+}
+.div4 .container .rightfloat>h1{
+    font-size: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+.div4 .container .rightfloat>p{
+    color: black;
+    font-family: 'segoe ui';
+    font-size: 20px;
+    text-align: center;
+}
+.div4 .div2btn{
+    float: right;
+}
+.invert{
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+}
+
+/* ---- Flex ------------------------------------- */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+.div5 {
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+}
+p{
+    font-family: 'segoe ui';
+}
+.div5 >p{
+    color: white;
+}
+.div5>h1{
+    line-height: 5px;
+}
+.flex-container{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div5-cards img, .div6-cards .doc{
+    width: 100%;
+    height: 40vh;
+    border: 4px solid;
+    border-color: white;
+}
+.div5-cards, .div6-cards{
+    margin-right: 40px;
+}
+.div5-cards input{
+    background-color: rgb(0, 191, 203);
+    border-style: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    font-weight: 400;
+    font-family: 'segoe ui';
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.div5-cards p{
+    color: white;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.div6{
+    text-align: center;
+}
+.socials{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.div6-cards h3,p{
+    font-family: 'segoe ui';
+}
+.div6-cards h3{
+    font-size: 20px;
+    line-height: 0;
+}
+.div7{
+    background-image: url('/img/vetlayer.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+.layer{
+    background-color: rgba(255, 165, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.infocards{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+h2{
+    color: white;
+    font-family: 'segoe ui';
+    font-size: 20px;
+    font-weight: bold;
+}
+.infocards>p{
+    color: white;
+    font-family: 'segoe ui';
+    font-size: 20px;
+}
+.infocards>span{
+    color: white;
+    font-size: 100px;
+}
+.recentpostscards{
+    border: 1px solid gray;
+    width: 80%;
+    margin-top: 50px;
+    text-align: left;
+}
+.div8{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.recentpostscards img{
+    width: 100%;
+    height: 50%;
+}
+.pad{
+    padding: 20px;
+}
+.recentpostscards h2{
+    font-weight: 600;
+    line-height: 20px;
+}
+.recentpostscards .date{
+    color: rgb(0, 191, 203);
+    font-size: 13px;
+}
+.recentpostscards .readmore{
+    color: rgb(0, 191, 203);
+}
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+}
+
+.footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+}
+
+.footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: segoe ui;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: white;
+    font-weight: bolder;
+}
+
+.footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+}
+
+.social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+}
+.social{
+    justify-content: end;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media only screen and (min-width: 1280px) {
+    .contain {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1139px) {
+    .contain .social {
+        width: 1000px;
+        display: block;
+    }
+
+    .social h1 {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .footer .col {
+        width: 33%;
+    }
+
+    .footer .col h1 {
+        font-size: 14px;
+    }
+
+    .footer .col ul li {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer .col {
+        width: 50%;
+    }
+
+    .footer .col h1 {
+        font-size: 14px;
+    }
+
+    .footer .col ul li {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .footer .col {
+        width: 100%;
+    }
+    div[class^="col-"]{
+        width: 100%;
+    }
+}
